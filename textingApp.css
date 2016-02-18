@@ -1,0 +1,38 @@
+/* CSS declarations go here */
+body {
+    background-color: #315481;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: -webkit-linear-gradient(top, #315481, #918e82 100%);
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+#content-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    right: 20%;
+    background-color: white;
+    left: 20%;
+    overflow-y:scroll;
+}
+
+.contentButton{
+    width:20%;
+}
+
+.textTemplate{
+    border-bottom: 2px black solid;
+}
