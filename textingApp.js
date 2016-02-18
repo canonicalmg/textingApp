@@ -51,7 +51,7 @@ if (Meteor.isClient) {
         }
       }
     }
-
+//asd
     $(".contentButton").click(function () { //User is changing content
       var contentNumber = $(this).attr("value");
       console.log(contentNumber);
